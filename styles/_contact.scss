@@ -1,0 +1,52 @@
+.contact {
+    padding: 80px 0;
+
+    &-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            input,
+            textarea {
+                padding: 15px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 1rem;
+            }
+
+            textarea {
+                height: 150px;
+                resize: none;
+            }
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                display: flex;
+                gap: 10px;
+
+                i {
+                    color: $secondary-color;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        @media (max-width:768px) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
