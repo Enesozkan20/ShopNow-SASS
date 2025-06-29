@@ -1,4 +1,4 @@
-# 🛍️ ShopNow - E-Commerce UI with SASS
+# 🛍️ ShopNow 
 
 ![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26)
 ![SASS](https://img.shields.io/badge/SASS-CSS_Preprocessor-CC6699)
